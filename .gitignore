@@ -84,5 +84,11 @@ env.bak/
 venv.bak/
 
 # Others
+Notes.md
+sr28abbr
+sr28asc
+SR-Leg_ASC
+SR-Leg_DB
+.vscode
 .DS_Store
 

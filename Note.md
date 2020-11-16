@@ -9,7 +9,7 @@ End product will include:
 * My Intro / Research summary
   * Inspiration
   * Why alkalinity of food is important in diet
-  * Why I used PRAL (Some food's ph changes after digestion?)
+  * Why I used PRAL
 * Citations of research and data
   * Data - USDA
   * Research - Whole bunch of websites about food alkalinity and why it's important
@@ -25,53 +25,32 @@ Procedure
 * Test: 
   * Lysine/Arginine as (Y)
   * PRAL as (X)
-* 
-* 
-
-
 
 ## Intro
 
+Common health advice tells us to eat food with high protein and vitamins and low fat and cholesterol, etc. This is a sound advice, but it's missing the important factor of the food's acidity. 
 
+Our metabolism constantly attempts to keep our blood's pH level balanced (slightly alkaline). The food we consume affects how easily our body can perform this task. A meal with high dietary acid load makes our body attempt to balance its pH by releasing alkaline rich minerals (e.g. calcium, potassium, magnesium) into the bloodstream. If the diet lacks these minerals, the body will release them from bones, teeth, and organs. This can eventually lead to chronic diseases, such as osteoporosis. Also, acidic food's nutrients cannot be properly absorbed in the digestive system and can cause nutrition deficiency. This can lead to weakened immune system. 
 
-Our metabolism constantly attempts to keep our blood's pH level balanced (slightly alkaline). The food we consume affects how easily our body can perform this task. Eating a meal with high dietary acid load will make our body attempt to balance its pH by releasing alkaline rich minerals (e.g. calcium, potassium, magnesium) into the bloodstream. If the diet lacks these minerals, the body will release them from its bones, teeth, and organs. 
+Today's average Western diet predominantly consists of acid-forming food high in animal protein and grains. Acidic diet is highly correlated with cardiac diseases, diabetes, and cancer. It might not be a coincidence that these are also the leading cause of death in America. 
 
-Today's average Western diet is predominantly consists of acid-forming food (high dietary acid load) with high consumption of animal protein and low consumption of fruits and vegetables. High level of acidity in blood leads to acidosis, which has all kinds of unwanted side-effects, such as cardiac disease, weak immune systems, impotence, diabetes, rapid aging, etc. 
-
-
-
-
+Nutrients and acidity are important measures for a healthy diet, but most resources online don't take both into consideration. This project was inspired by the lack of resources online that take both nutrients and acidity into consideration when assessing the health benefit of food. 
 
 
 
 Main effects of highly acidic diet:
 
 * Nutrient Deficiency
-* High dietary acid load
-
-* Nutrient deficiencies: Caused because Acidic food's nutrients are not properly absorbed in the digestive system
+  * Caused because Acidic food's nutrients are not properly absorbed in the digestive system
   * Weakened immune systems 
   * Hair loss
   * Osteoporosis: Body naturally balances its own pH. If the body doesn't consume enough mineral consumption (alkaline), then it uses body's own mineral reserves (i.e. calcium from bones).
-* Acidic bloodstream / Acidic plaques in the bloodstream 
-  * Arterial inflammation and plaques
-  * Clogged bloodstream
-  * Cardiovascular diseases (e.g. heart attack, stroke)
-* Excess acid in the stomach
-  * heartburn
-  * indigestion
-  * excess gas and bloating
-* Acidic Liver, Pancreases, and Kidneys: These are alkaline glands and are susceptible to acidic damage. 
-  * Irritation and destruction of surrounding tissues
-  * High blood pressure
-  * High cholesterol levels
-  * Ulcers
-  * Kidney Stones
-  * Cancer
-* Build-up of mucus in the lungs?
-* Acidic skin?
-  * skin eruptions, eczema, all dermatitis types, rashes, acne and random breakouts
-  * Breeding ground for bacteria, yeast, fungi (Candida)
+* Acidosis: When your body fluid is too acidic
+  * Can be caused by highly acidic diet
+  * Acidic bloodstream / Acidic plaques in the bloodstream can cause many cardiovascular diseases (e.g. heart attack, stroke)
+  * Excess acid in the stomach can cause heartburn, indigestion, and excess gas and bloating
+  * Acidic Liver, Pancreases, and Kidneys can cause high blood pressure, high cholesterol levels, ulcers, kidney stones, and cancer. These are alkaline glands and are especially susceptible to acidic damage. 
+  * Acidic skin can cause acne, eczema, dermatitis, and rashes. It also creates a Breeding ground for bacteria, yeast, fungi (Candida)
 
 Why is knowing acidity of food important?
 
@@ -79,23 +58,8 @@ Why is knowing acidity of food important?
   * GERD / Acid Reflux
   * Stomach ulcer
   * Immune system disorder/disease
-* High dietary acid load increases the risk of developing chronic diseases
-  * Type 2 Diabetes (https://www.betterbones.com/alkaline-balance/the-connection-between-a-high-acid-diet-and-diabetes/)
-* Why?
-  * https://livelovefruit.com/acidic-foods-cause-chronic-disease/
-  * *Body needs to balance its own pH. If not enough mineral consumption (alkaline), then it uses body's own mineral reserves (i.e. calcium from bones).*
-  * *Osteoporosis: High level of acid in the blood will cause the body to use calcium (mineral reserves) in our bones to buffer excess acidity (maintain the body's pH)*
-  * *Highly alkaline glands (Liver, Pancreases, Kidneys) are most susceptible to acidic damage: High acidity levels in these glands can cause irritation and destruction of surrounding tissue.  Can cause ulcers, stones, and cancer.*
-  * *Heart: Acidic plaques in the bloodstream also can cause arterial inflammation and plaques, and clog the bloodstream.*
 
-When body fluids (blood PH) becomes too acidic, body enters the state of acidosis. 
-
-
-
-High dietary acid load of foods
-
-* pH of the food has nothing to do with the food's acid or alkaline-forming tendencies in the body. For example, lemon is very acidic in nature but it is alkaline forming after digestion.
-* This is because foods' effect on blood pH is not determined just by the acid in the food but also by the minerals in it. 
+## Calculating Acidity of food
 
 PRAL
 $$
@@ -108,10 +72,11 @@ PRAL_{(mEq/d)}& = 0.49 × protein_{(g/d)} \\
 \end{split}
 $$
 
-
 Potential Renal Acid Load (PRAL) is a method of calculating how much of an acid load the foods you eat put on your kidneys (**<< CITE THIS**). Acid forming food have positive PRAL score and alkaline food have negative PRAL score. 
 
-## Citations
+PRAL was used instead of using the pH of food because the pH of the food has little to do with the food's acid or alkaline-forming tendencies in the body. For example, lemon is very acidic in nature but it is alkaline forming after digestion. This is because foods' effect on blood pH is not determined just by the acid in the food but also by the minerals in it. PRAL takes minerals into consideration in its calculation. This makes it a more suitable measurement for dietary purposes. 
+
+## References
 
 USDA Datasets
 
@@ -120,8 +85,6 @@ USDA Datasets
 * Haytowitz, David B.; Ahuja, Jaspreet K.C.; Wu, Xianli; Somanchi, Meena;  Nickle, Melissa; Nguyen, Quyen A.; Roseland, Janet M.; Williams, Juhi  R.; Patterson, Kristine Y.; Li, Ying; Pehrsson, Pamela R.. (2019). USDA  National Nutrient Database for Standard Reference, Legacy Release.  Nutrient Data Laboratory, Beltsville Human Nutrition Research Center,  ARS, USDA. https://data.nal.usda.gov/dataset/usda-national-nutrient-database-standard-reference-legacy-release. Accessed 2020-11-15.
   * https://data.nal.usda.gov/dataset/usda-national-nutrient-database-standard-reference-legacy-release
 * https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/sr-legacy-nutrient-search/
-
-
 
 Research: Acidic diet and complications
 

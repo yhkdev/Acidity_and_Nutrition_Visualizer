@@ -61,18 +61,11 @@ Why is knowing acidity of food important?
 
 ## Calculating Acidity of food
 
-PRAL
-$$
-\begin{split}
-PRAL_{(mEq/d)}& = 0.49 × protein_{(g/d)} \\ 
-& \quad + 0.037 × phosphorus_{(mg/d)} \\
-& \quad − 0.021 × potassium_{(mg/d)} \\
-& \quad − 0.026 × magnesium_{(mg/d)} \\
-& \quad − 0.013 × calcium_{(mg/d)}
-\end{split}
-$$
+<p align="center">
+  <img src="static/img/PRAL_formula.png"/>
+</p>
 
-Potential Renal Acid Load (PRAL) is a method of calculating how much of an acid load the foods you eat put on your kidneys (**<< CITE THIS**). Acid forming food have positive PRAL score and alkaline food have negative PRAL score. 
+Potential Renal Acid Load (PRAL) is a method of calculating how much of an acid load the foods you eat put on your kidneys (**<< CITE THIS**). Acid forming food have positive PRAL score and alkaline food have negative PRAL score. Values calculated here are per 100 grams of food. 
 
 PRAL was used instead of using the pH of food because the pH of the food has little to do with the food's acid or alkaline-forming tendencies in the body. For example, lemon is very acidic in nature but it is alkaline forming after digestion. This is because foods' effect on blood pH is not determined just by the acid in the food but also by the minerals in it. PRAL takes minerals into consideration in its calculation. This makes it a more suitable measurement for dietary purposes. 
 
